@@ -55,11 +55,11 @@ sudo make install
 详细见：https://github.com/unitreerobotics/unitree_sdk2
 #### mujoco
 
-下载mujoco[安装包](https://github.com/google-deepmind/mujoco/releases), 解压到 `~/.mujoco` 目录下;
+下载 MuJoCo **3.16.0** [安装包](https://github.com/google-deepmind/mujoco/releases/tag/3.16.0)，解压到 `~/.mujoco` 目录下;
 
 ```
 cd unitree_mujoco/simulate/
-ln -s ~/.mujoco/mujoco-3.3.6 mujoco
+ln -sfn ~/.mujoco/mujoco-3.16.0 mujoco
 ```
 
 ### 2. 编译 unitree_mujoco

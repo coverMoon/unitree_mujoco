@@ -54,11 +54,11 @@ sudo make install
 For more details, see: https://github.com/unitreerobotics/unitree_sdk2
 #### mujoco
 
-Download the mujoco [release](https://github.com/google-deepmind/mujoco/releases), and extract it to the `~/.mujoco` directory;
+Download the MuJoCo **3.16.0** [release](https://github.com/google-deepmind/mujoco/releases/tag/3.16.0), and extract it to the `~/.mujoco` directory;
 
 ```
 cd unitree_mujoco/simulate/
-ln -s ~/.mujoco/mujoco-3.3.6 mujoco
+ln -sfn ~/.mujoco/mujoco-3.16.0 mujoco
 ```
 
 ### 2. Compile unitree_mujoco
